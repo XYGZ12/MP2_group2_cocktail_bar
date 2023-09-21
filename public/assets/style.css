@@ -1,0 +1,245 @@
+
+/* log-in */
+
+.login-main-container {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;  
+}
+
+.login-container {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    width: 600px;
+    padding: 20px;
+}
+
+.slider {
+    display: block;
+}
+
+.sign-in {
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+
+.sign-up {
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    display: none;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+}
+
+.button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.toggle {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    padding-bottom: 10px;
+}
+
+span {
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.active {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.active-slide .sign-in-form,
+.active-slide .sign-up-form {
+    display: block;
+}
+
+.question {
+    text-align: center;
+}
+
+.login-logo {
+    padding-top: 20px;
+    width: 120px;
+    height: 100px;
+}
+
+.login-logo-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+/* footer */
+footer {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-top: 150px;
+}
+
+
+/* dashboard css */
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Set a background color for the body */
+  body {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Style the header */
+  header {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Style the navigation bar (ul) */
+  .navbar-nav {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+  }
+
+  li {
+    list-style-type: none;
+  }
+  
+  /* Style the navigation links (li and a) */
+  .nav-item {
+    margin-right: 20px;
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    color: #eaeaea; /* Change color on hover */
+  }
+  
+  /* Style the search input */
+  #searchInput {
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
+  /* Style the search button */
+  #searchButton {
+    padding: 5px 10px;
+    background-color: blue;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    margin-right: 20px;
+  }
+  
+  /* Style the cocktail grid container */
+  .cocktail-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 9%;
+  }
+  
+  /* Style individual cocktail items */
+  .cocktail-item {
+    background-color: white;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .cocktail-item:hover {
+    transform: scale(1.05);
+  }
+  
+  .cocktail-item img {
+    width: 100%;
+    height: auto;
+    max-height: 200px; /* Adjust the height as needed */
+  }
+  
+  /* Style the cocktail details container */
+  #cocktailDetails {
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  /* Align the logout button to the right */
+  .nav-item:last-child {
+    margin-left: auto;
+  }
+  
+
+

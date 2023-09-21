@@ -1,0 +1,36 @@
+<%-include('header') -%>
+<div class="login-main-container">
+    <div class="login-container">
+        <div class="login-logo-div">
+            <!-- <img src="/static/assets/catto_care_logo.png" class="login-logo" alt="logo"> -->
+        </div>
+        <div class="slider">
+            <div class="sign-in">
+                <h2>Sign In</h2>
+                <form action="/login" method="POST">
+                    <input type="email" name="email" placeholder="Email" required>
+                    <input type="password" name="password" placeholder="Password" required>
+                    <button class="button" type="submit">Sign In</button>
+                </form>
+            </div>
+            <div class="sign-up">
+                <h2>Sign Up</h2>
+                <form name="sign-up">
+                    <input type="text" placeholder="Full Name" required>
+                    <input type="email" placeholder="Email" required>
+                    <input type="password" placeholder="Password" required>
+                    <button class="button" type="submit">Sign Up</button>
+                </form>
+            </div>
+        </div>
+        <div class="question">
+            <p>Do you have an account? Click Sign up!!</p>
+        </div>
+        <div class="toggle">
+            <span class="active">Sign In</span>
+            <span>Sign Up</span>
+        </div>
+    </div>
+</div>
+
+<%-include('footer') -%>
