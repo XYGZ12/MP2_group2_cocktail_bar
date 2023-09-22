@@ -7,7 +7,7 @@ const cocktailDetails = document.getElementById("cocktailDetails");
 // Function to fetch and display 5 random cocktails
 async function fetchAndDisplayRandomCocktails() {
   const cocktails = [];
-  while (cocktails.length < 5) {
+  while (cocktails.length < 30) {
       try {
           const response = await fetch("https://www.thecocktaildb.com/api/json/v1/1/random.php");
           if (!response.ok) {
